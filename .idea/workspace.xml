@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54deec15-cc1a-4234-a17a-1a468d417dfd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Uu-tien-kham-benh/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Uu-tien-kham-benh/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,11 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Decimal-To-Binary" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +54,7 @@
       <workItem from="1608692311932" duration="2360000" />
       <workItem from="1608696906628" duration="800000" />
       <workItem from="1608704924597" duration="11959000" />
-      <workItem from="1608721654473" duration="10281000" />
+      <workItem from="1608721654473" duration="10343000" />
     </task>
     <task id="LOCAL-00001" summary="Upload all bai tap">
       <created>1608744103128</created>
@@ -58,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608744103128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload all bai tap">
+      <created>1608744221126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608744221126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
