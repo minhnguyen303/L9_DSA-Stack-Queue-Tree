@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ed5edcc0-cab9-49fc-8563-8eee4f28cad8" name="apache2" url="http://localhost/L9_DSA-Stack-Queue-Tree/">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
