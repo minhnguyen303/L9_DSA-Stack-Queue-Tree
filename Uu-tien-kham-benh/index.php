@@ -10,16 +10,22 @@ for ($i = 1; $i < 6; $i++) {
     $ed->add($patient);
 }
 
+echo "<pre>";
+var_dump($ed);
+echo "<hr>";
 
+var_dump($ed->get());
+echo "<hr>";
 
+var_dump($ed->get());
+echo "<hr>";
 
-
-
-
+var_dump($ed);
+echo "<hr>";
 
 
 ?>
-<!doctype html>
+<!--<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,14 +52,14 @@ for ($i = 1; $i < 6; $i++) {
     <fieldset>
         <legend>Danh sách các bệnh nhân</legend>
         <ul id="listPatients">
-            <?php foreach ($ed->patients as $value): ?>
+            <?php /*foreach ($ed->patients as $value): */?>
                 <li><br>
                     <span>
-                    Tên: <?php echo $value->name ?><br>
-                    Code: <?php echo $value->code ?>
+                    Tên: <?php /*echo $value->name */?><br>
+                    Code: <?php /*echo $value->code */?>
                     </span>
                 </li>
-            <?php endforeach; ?>
+            <?php /*endforeach; */?>
         </ul>
     </fieldset>
 </form>
@@ -66,8 +72,8 @@ for ($i = 1; $i < 6; $i++) {
 </form>
 </body>
 </html>
-<?php
-if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+--><?php
+/*if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $name = $_POST['inputName'];
     $code = $_POST['inputCode'];
 
@@ -81,4 +87,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET'){
     $code = $patient->code;
     echo "<script>document.getElementById('currentPatient').innerHTML = '$name<br>$code';</script>";
     header('Location: index.php');
-}
+}*/
+    ?>

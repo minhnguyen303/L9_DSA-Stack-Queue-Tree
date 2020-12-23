@@ -34,8 +34,6 @@ class EmergencyDepartment
 
     public function get()
     {
-        /*$value = $this->patients->bottom();
-        $this->patients->shift();*/
         return $this->patients->shift();
     }
 }
